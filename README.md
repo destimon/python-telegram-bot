@@ -4,7 +4,7 @@ Just another telegram bot written on Python.
 TODO:
   * Message Handler
     * Hello response **[DONE]**
-    * Some bad-words cases response
+    * Some bad-words cases response **[DONE]**
     * Suggesting
   * Commands
     * /help
