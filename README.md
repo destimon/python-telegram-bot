@@ -5,10 +5,10 @@ TODO:
   * Message Handler
     * Hello response **[DONE]**
     * Some bad-words cases response **[DONE]**
-    * Suggesting
+    * Suggesting **[DONE]**
   * Commands
-    * /help
-    * /time
+    * /help **[DONE]**
+    * /time **[DONE]**
     * /word [WORD] (display word)
   * Keyboard
     * Basic Menu
