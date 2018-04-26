@@ -9,6 +9,6 @@ TODO:
   * Commands
     * /help **[DONE]**
     * /time **[DONE]**
-    * /word [WORD] (display word)
+    * /word [WORD] (display word) **[DONE]**
   * Keyboard
     * Basic Menu

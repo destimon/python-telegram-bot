@@ -2,8 +2,6 @@ from datetime import datetime
 import telebot
 from profanity import profanity
 
-from src import commands
-
 from config import config
 
 bot = telebot.TeleBot(config.token)
@@ -19,6 +17,10 @@ def send_command(message):
 @bot.message_handler(commands=['time'])
 def send_command(message):
 	bot.reply_to(message, time_message)
+
+@bot.message_handler(commands=['word'])
+def send_command(message):
+    bot.reply_to(message, message.text.split()[1:])
 
 # Message Handler
 @bot.message_handler(content_types=["text"])
